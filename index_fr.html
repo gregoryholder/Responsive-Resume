@@ -20,33 +20,33 @@
                 <div class="imgBox">
                     <img src="assets/head.jpg" alt="">
                 </div>
-                <strong>Gregory Holder</strong> <br> Etudiant Ingénieur
+                <strong>Gregory Holder</strong> <br> Développeur Junior
             </div>
 
             <section class="skills">
                 <h1 class="title">Compétences</h1>
                 <ul class="ratedSkills tight">
                     <li>
-                        <div>C</div>
+                        <div>Rust</div>
                         <div class="percent">
-                            <div style="width: 90%;"></div>
+                            <div style="width: 80%;"></div>
                         </div>
                     </li>
                     <li>
                         <div>C++</div>
                         <div class="percent">
-                            <div style="width: 60%;"></div>
+                            <div style="width: 90%;"></div>
                         </div>
                     </li>
                     <div class="listSeperator"></div>
                     <li>
                         <div>Python</div>
                         <div class="percent">
-                            <div style="width: 90%;"></div>
+                            <div style="width: 100%;"></div>
                         </div>
                     </li>
                     <li>
-                        <div>C# / Java</div>
+                        <div>C# & Java</div>
                         <div class="percent">
                             <div style="width: 70%;"></div>
                         </div>
@@ -79,9 +79,9 @@
                     </li>
                     <div class="listSeperator"></div>
                     <li>
-                        <div>Git / GitHub / GitLab</div>
+                        <div>Matlab</div>
                         <div class="percent">
-                            <div style="width: 70%;"></div>
+                            <div style="width: 80%;"></div>
                         </div>
                     </li>
                 </ul>
@@ -94,15 +94,19 @@
             </section>
             <section class="profil">
                 <h1 class="title">Profil</h1>
-                <p>
+                <!-- <p>
                     Étudiant à l'Université de Technologie de Troyes (UTT) à la recherche d'un stage de fin d'études.
-                </p>
-                <br>
+                </p> -->
+                <!-- <br> -->
                 <p>
                     Fasciné par la robotique et la programmation depuis que je suis jeune,
                     je souhaite appliquer et développer mes compétences dans un
                     environnement professionnel, tout en en acquérant de nouvelles.
                 </p>
+                <!-- <br> -->
+                <!-- <p> -->
+                    <!-- Ayant effectués quelques stages en développement logiciel et embarqué, je  -->
+                <!-- </p> -->
             </section>
             <section class="contactInfo">
                 <h1>Contact</h1>
@@ -155,14 +159,14 @@
                 <h1>Projets Personnels</h1>
                 <ul>
                     <li>
+                        <strong>Apprentissage du Rust</strong> : Rust sur microcontrôleurs type Arduino. <br>
+                        Experimentation avec la plateforme de développement de jeux vidéo "bevy".
+                    </li>
+                    <li>
                         <strong>Mini "Segway"</strong> : Robot qui se tient en équilibre et se déplace sur deux
                         roues
                         alignées axialement <br>
                         (Arduino, Chassis Imprimé, PCB Custom, Asservissement)
-                    </li>
-                    <li>
-                        <strong>Trans-compilateur</strong> : Création d'un trans-compilateur partant d'un language
-                        propriétaire simple vers le C
                     </li>
                     <li>
                         <strong>Maison connectée DIY</strong> : Implémentation du projet "Home Assistant" sur une
@@ -185,13 +189,16 @@
                             <strong>Diplôme d'Ingénieur en Réseaux & Télécommunications</strong> <br>
                             <ul>
                                 Matières Suivies:
+                                <li>Bases en IA: théorie et implémentation (classifieurs, détection, IAs générative...)</li>
+                                <li>Traitement de signal et d'images (filtres, traitement etvisualisation avec Python et Matlab)</li>
                                 <li>Administration des systèmes (Linux, BASH et outils communs)</li>
                                 <li>Réseaux d'entreprise avancés</li>
-                                <li>Création de sites web: du projet à la réalisation</li>
+                                <!-- <li>Création de sites web: du projet à la réalisation</li> -->
                                 <li>Bases de données (théorie + pratique avec MySQL)</li>
-                                <li>Introduction à l'internet des objets <br> (théorie + pratique avec modules ESP32 et Raspberry Pi)</li>
-                                <li>Théorie des graphes, chaînes de Markov et réseaux de files d'attente</li>
-                                <li>Principe et pratique de l'orienté objet avec Java</li>
+                                <li>Introduction à l'internet des objets <br> (théorie + pratique avec modules ESP32 et
+                                    Raspberry Pi)</li>
+                                <!-- <li>Théorie des graphes, chaînes de Markov et réseaux de files d'attente</li> -->
+                                <!-- <li>Principe et pratique de l'orienté objet avec Java</li> -->
                             </ul>
 
                         </div>
@@ -209,9 +216,32 @@
                 <h1>Expériences professionnelles</h1>
                 <ul class="year-description-table">
                     <li>
+                        <div> 2024 (6 mois) <br> Stage - <br> Air Liquide Medical Systems </div>
+                        <div>
+                            <strong>Création et évalutation Intégration Matlab temps-réel</strong>
+                            <!-- <strong>Développement I<span style="text-transform: lowercase;">o</span>T sur
+                                microcontrôleur</strong> <br> -->
+                            <!-- Développement d'une solution de conteneurisation de scripts sécurisée pour microcontrôleur. -->
+                            <br>
+                            Mise en place d'une intégration PoC Matlab/Simulink pour monitorer et piloter un ventilateur. <br>
+                            Permettre l'acquisition de capteurs et l'envoie de paramètres contrôleurs (type PID) afin de rapidement observer leur impactes.
+                            <ul>
+                                <!-- <li>Propre implémentation du protocole CoAP</li> -->
+                                <li>Dévelopement avec le RTOS 'PikeOS'</li>
+                                <li>Interfaces "Mex" et "S-Function" pour le côté Matlab</li>
+                                <li>Benchmark de performances, tests unitaires</li>
+                                <li>C++ 11, CMake, Gitlab, gtest/gmock</li>
+                                <!-- <li>Développement sur microcontrôleur avec le RTOS 'RIOT-OS'</li> -->
+                                <!-- <li>Application mobile avec Flutter</li> -->
+                                <!-- <li>CI/CD sur GitLab avec images Docker -->
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
                         <div> 2022 (6 mois) <br> Stage - <br> Orange Innovation Caen </div>
                         <div>
-                            <strong>Développement I<span style="text-transform: lowercase;">o</span>T sur microcontrôleur</strong> <br>
+                            <strong>Développement I<span style="text-transform: lowercase;">o</span>T sur
+                                microcontrôleur</strong> <br>
                             Développement d'une solution de conteneurisation de scripts sécurisée pour microcontrôleur.
                             <ul>
                                 <li>Développement sur microcontrôleur avec le RTOS 'RIOT-OS'</li>
@@ -220,25 +250,26 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <div> 2022 <br> Freelance </div>
                         <div>
                             <strong>Création de sites web</strong> <br>
-                            Conception et développement de sites web pour des entreprises avec deux autres étudiants <br>
+                            Conception et développement de sites web pour des entreprises avec deux autres étudiants
+                            <br>
                             Compétences Requises:
                             <ul>
                                 <li>Échanger avec les clients et comprendre leurs besoins</li>
                                 <li>Développer à partir d'une charte graphique</li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </section>
             <section>
                 <h1>Mon Investissement dans mon École</h1>
                 <ul class="year-description-table">
                     <li>
-                        <div> 2021 - à présent <br> UTT Robotik </div>
+                        <div> 2021 - 2022 <br> UTT Robotik </div>
                         <div>
                             <strong>Club de Robotique</strong>
                             <p>Participation active au club de robotique pour aller à "La Coupe de France de
@@ -262,8 +293,7 @@
                         <div>
                             <strong>Fête de la science</strong>
                             <p>Programmation de six voitures télécommandées ainsi que leurs télécommandes, conçues
-                                par
-                                le club pour une démonstration pendant la fête de la science
+                                par le club pour une démonstration
                             </p>
                         </div>
                     </li>
